@@ -108,7 +108,7 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>事件発生</h2>
-              <p class="text-center">視聴制限が解除されたから他の謎も解いていこう！<br>
+              <p class="text-center">  次の謎を解こうとしたところでチャットが打てなくなり先程までの沢山の文字が見えなくなった<br>彼をサポートするために彼と協力してチャットの制限を解こう！<br>
                
             </div>
           </div>
@@ -199,7 +199,7 @@ Youtube貼り付けここまで -->
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>STEGE3の問題</h2>
             <p class="text-center">
-             次の謎を解こうとしたところでチャットが打てなくなり先程までの沢山の文字が見えなくなった<br>彼をサポートするために彼と協力してチャットの制限を解こう！</p>
+           この問題を解いて彼を救出せよ！</p>
             <figure class="image__container">
               <img src="assets/images/三問目.png" alt="">
             </figure>
@@ -216,7 +216,7 @@ Youtube貼り付けここまで -->
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
               4番目の引数 'final' は最終ステージを表します。
             ------------------------------------------------------------------------------------------------------------------>
-           
+                <answer-input v-bind:correct="correctAnswer['stage3']['q1']" v-on:answer-input="answerInput($event, 'stage3', 1, 'final')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
