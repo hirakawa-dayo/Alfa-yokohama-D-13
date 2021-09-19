@@ -30,7 +30,7 @@ const app = Vue.createApp({
           // q2: 'かかか',
           // q3: 'ききき',
         }
-             stage4: {
+        stage4: {
           q1: ' アンロック',
           // q2: 'かかか',
           // q3: 'ききき',
